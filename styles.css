@@ -225,13 +225,14 @@ footer p {
 }
 
 .box {
-  width: 450px;
+  width: 300px;
   background: #333;
   padding: 23px;
   text-align: center;
-  margin: auto;
-  margin-top: 5%;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
 }
 
 .box-img{
