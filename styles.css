@@ -1,0 +1,375 @@
+html {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+   font-size: 48px;
+   letter-spacing: -2px;
+   text-decoration: underline;
+   text-decoration-style: solid;
+   text-transform: uppercase;
+   text-align: center;
+   position: sticky;
+   color: white;
+}
+
+.nav {
+  font-size: 1em;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+.nav li {
+  display:inline-block;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+.highlight {
+  background-color: #111;
+}
+
+.fa {
+  padding: 10px;
+  width:50px;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+   justify-content: center;
+   background-color: #333;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+#site-footer {
+height: 150px;
+background: #333;
+}
+
+#footer1{
+margin-top: 50px;
+float:center;
+}
+
+#footer1 a p {
+  text-decoration: none;
+}
+
+#footer1 a:link {
+  color: black;
+}
+
+footer p {
+  color: white;
+  background-color: #333;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery2:hover {
+  border: 1px solid #777;
+}
+.gallery3:hover {
+  border: 1px solid #777;
+}
+.gallery4:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery2 img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery3 img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery4 img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery a{
+  text-decoration: none;
+  font-size: auto;
+}
+
+.gallery2 a{
+  text-decoration: none;
+  font-size: auto;
+}
+
+.gallery3 a{
+  text-decoration: none;
+  font-size: auto;
+}
+
+.gallery4 a{
+  text-decoration: none;
+  font-size: auto;
+}
+
+.responsive {
+ float: left;
+ width: 30%;
+ padding: 5% 10%;
+}
+
+.responsive2 {
+ float: left;
+ width: 30%;
+ padding: 5% 10%;
+}
+
+.description {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #333;
+}
+
+.picture-tabs {
+  overflow: auto;
+}
+
+.imagegrid {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 10%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column img {width:100%;}
+
+/*Responsive layout*/
+@media screen and (max-width: 501px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout*/
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.box {
+  width: 450px;
+  background: #333;
+  padding: 23px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+
+.table h2 {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.table p {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  color: black;
+}
+
+th {
+  background-color: #333;
+  text-align: center;
+  padding: 16px;
+  color: white;
+}
+
+td {
+  text-align: center;
+  padding: 16px;
+  background-color: white;
+}
+
+.book {
+  border-style: outset;
+  border-width: thick;
+}
+
+.book h2 {
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.book ol {
+  color: white;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book li {
+  text-align: left;
+}
+
+.reviews {
+  box-sizing: border-box;
+}
+
+.reviews h2 {
+  color: white;
+  font-style: italic;
+}
+
+.reviews h3{
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.column1 {
+  float: center;
+  width: 100%;
+  padding: 2px;
+
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout*/
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 99.3%;
+  }
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: verticalp
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #333;
+}
