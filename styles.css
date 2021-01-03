@@ -91,10 +91,6 @@ margin-top: 50px;
 display: inline;
 }
 
-footer a p {
-  text-decoration: none;
-}
-
 footer a{
   color: white;
   text-decoration: none;
@@ -103,6 +99,7 @@ footer a{
 footer p {
   color: white;
   background-color: #333;
+  text-decoration: none;
 }
 
 .gallery:hover {
