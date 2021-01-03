@@ -83,11 +83,12 @@ h1 {
 #site-footer {
 height: 150px;
 background: #333;
+text-align: center;
 }
 
 #footer1{
 margin-top: 50px;
-float:center;
+display: inline;
 }
 
 #footer1 a p {
@@ -138,22 +139,18 @@ footer p {
 
 .gallery a{
   text-decoration: none;
-  font-size: auto;
 }
 
 .gallery2 a{
   text-decoration: none;
-  font-size: auto;
 }
 
 .gallery3 a{
   text-decoration: none;
-  font-size: auto;
 }
 
 .gallery4 a{
   text-decoration: none;
-  font-size: auto;
 }
 
 .responsive {
@@ -184,7 +181,6 @@ footer p {
 }
 
 .row {
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -192,7 +188,6 @@ footer p {
 }
 
 .column {
-  -ms-flex: 25%;
   flex: 10%;
   max-width: 100%;
   padding: 0 4px;
@@ -209,7 +204,6 @@ footer p {
 /*Responsive layout*/
 @media screen and (max-width: 501px) {
   .column {
-    -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
@@ -218,7 +212,6 @@ footer p {
 /* Responsive layout*/
 @media screen and (max-width: 600px) {
   .column {
-    -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
   }
@@ -232,7 +225,6 @@ footer p {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  float: center;
 }
 
 .box-img{
@@ -326,7 +318,6 @@ td {
 }
 
 .column1 {
-  float: center;
   width: 100%;
   padding: 2px;
 
