@@ -91,12 +91,13 @@ margin-top: 50px;
 display: inline;
 }
 
-#footer1 a p {
+footer a p {
   text-decoration: none;
 }
 
-#footer1 a:link {
-  color: black;
+footer a{
+  color: white;
+  text-decoration: none;
 }
 
 footer p {
